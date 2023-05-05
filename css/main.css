@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+a {
+    text-decoration: none;
+}
+main, #portfolio, #about-me, .form, .reviews, .header, #text {
+    background-image: url(../img/main-img.jpg);
+}
