@@ -12,8 +12,7 @@ html, body {
 }
 
 main {
-  background-image: url(/img/main-img.jpg);
-  height: 80vh;
+  height: 92vh;
   color: #FFF;
 }
 main .main-text {
@@ -115,10 +114,9 @@ main .scrolldown a span::before {
 }
 
 #portfolio {
-  background-image: url(/img/main-img.jpg);
   height: 100%;
   color: #FFF;
-  padding-bottom: 70px;
+  padding: 70px 0;
 }
 #portfolio .portfolio__text {
   width: 50%;
@@ -139,10 +137,10 @@ main .scrolldown a span::before {
   width: 400px;
   height: 450px;
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.516);
-  -webkit-box-shadow: 0 0 3rem -1rem rgba(178, 27, 110, 0.455);
-          box-shadow: 0 0 3rem -1rem rgba(178, 27, 110, 0.455);
-  color: white;
+  background: rgba(255, 255, 255, 0.988);
+  -webkit-box-shadow: 0 0 2.5rem -1rem rgba(255, 255, 255, 0.753);
+          box-shadow: 0 0 2.5rem -1rem rgba(255, 255, 255, 0.753);
+  color: black;
   margin: 20px auto;
 }
 #portfolio .portfolio__cards .portfolio__cards__card:hover .portfolio__cards__card-img img {
@@ -174,7 +172,7 @@ main .scrolldown a span::before {
 }
 #portfolio .portfolio__cards .portfolio__cards__card .portfolio__cards__card-text p {
   font-size: 20px;
-  color: rgb(200, 200, 200);
+  color: rgb(87, 87, 87);
 }
 #portfolio .portfolio__cards .portfolio__cards__card .portfolio__cards__card-text button {
   width: 200px;
@@ -222,10 +220,9 @@ main .scrolldown a span::before {
 }
 
 #about-me {
-  background-image: url(/img/main-img.jpg);
   height: 100%;
   color: #FFF;
-  padding: 150px 0px 170px 0px;
+  padding: 50px 0px 100px 0px;
 }
 #about-me ._about-me {
   display: -webkit-box;
@@ -316,11 +313,11 @@ main .scrolldown a span::before {
 }
 
 .form {
-  background-image: url(/img/main-img.jpg);
   height: 100%;
   color: #FFF;
   padding: 50px 0px 150px 0px;
   text-align: center;
+  background-position: 55%;
 }
 .form .title h2 {
   margin-bottom: 0;
@@ -331,7 +328,7 @@ main .scrolldown a span::before {
 }
 .form .form-subtitle p {
   font-size: 26px;
-  color: rgb(208, 208, 208);
+  color: #fff;
   margin-top: 0;
   line-height: 1;
 }
@@ -550,7 +547,6 @@ main .scrolldown a span::before {
 }
 
 .reviews {
-  background-image: url(/img/main-img.jpg);
   height: 100%;
   color: #FFF;
   padding: 50px 0px 150px 0px;
@@ -589,7 +585,7 @@ main .scrolldown a span::before {
 
 #text {
   color: #FFF;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 #text .title {
   text-align: center;
@@ -615,6 +611,8 @@ main .scrolldown a span::before {
   background-color: #FFF;
   font-weight: 600;
   margin-top: 30px;
+  -webkit-box-shadow: 0 0 4rem -1rem rgb(255, 255, 255);
+          box-shadow: 0 0 4rem -1rem rgb(255, 255, 255);
 }
 
 .dekstop {
@@ -681,6 +679,18 @@ main .scrolldown a span::before {
   }
 }
 @media (max-width: 768px) {
+  .scrolldown {
+    display: none;
+  }
+  .main {
+    background-position: 40%;
+  }
+  .main .main-text .main-text__subtitle {
+    color: #FFF;
+  }
+  .about-my-skills {
+    display: none;
+  }
   .dekstop {
     display: none;
   }
@@ -705,13 +715,14 @@ main .scrolldown a span::before {
     font-size: 40px;
   }
   #about-me {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
+    text-align: center;
   }
   #about-me .about-me_content .about-me__text p {
-    font-size: 16px;
-    width: 90%;
+    font-size: 17px;
+    width: 100%;
     color: #FFF;
-    line-height: 130%;
+    line-height: 135%;
   }
   .tags-cloud {
     height: 4vmin;
